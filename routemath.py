@@ -1,17 +1,15 @@
 import pandas as pd
-import matplotlib.pyplot as plt
 
 def main():
-    routes = csv_reader()
+    #routes = csv_reader()
+    ...
 
 def csv_reader():
-    routes = []
+    #routes = []
     for y in range(4):
         x = f"./info/route{y+1}.csv"
         with open(x,"r") as f:
             q = pd.read_csv(f)
-            q.plot()
-            plt.show()
     #return routes
 
 '''
